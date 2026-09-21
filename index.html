@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фото-сайт</title>
+    <style>
+        /* Сбрасываем лишние отступы */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000000; /* Черный фон */
+            padding: 30px 0;           /* Отступы сверху и снизу страницы */
+        }
+        img {
+            display: block;            /* Картинки ведут себя как блоки, выстраиваясь друг под другом */
+            max-width: 95%;            /* На телефонах фото не выйдет за пределы экрана */
+            height: auto;              /* Высота подстраивается автоматически, сохраняя оригинальные пропорции */
+            margin: 0 auto 30px auto;  /* Ровно по центру, с отступом 30px до следующего фото */
+            border-radius: 4px;        /* Едва заметное аккуратное скругление углов */
+        }
+    </style>
+</head>
+<body>
+
+    <img src="1.jpg" alt="Моя фотография 1">
+    <img src="2.jpg" alt="Моя фотография 2">
+    <img src="3.jpg" alt="Моя фотография 3">
+    <img src="4.jpg" alt="Моя фотография 4">
+    <img src="5.jpg" alt="Моя фотография 5">
+
+</body>
+</html>
